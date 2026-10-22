@@ -13,4 +13,4 @@
 - 视觉样式：`dist/assets/paper.css`
 - 移动菜单和页脚年份：`dist/assets/app.js`
 
-部署配置位于 `.openai/hosting.json`。网站当前通过 Sites 发布；`dist/` 也兼容 GitHub Pages 等静态托管。
+部署配置位于 `.openai/hosting.json`。网站当前通过 Sites 发布；仓库中的 GitHub Actions 工作流会把 `dist/` 部署到 GitHub Pages。启用仓库的 Pages 来源为 **GitHub Actions** 后，推送 `main` 分支即可更新。
